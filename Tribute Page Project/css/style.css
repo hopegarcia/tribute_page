@@ -1,0 +1,250 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 400vh;
+  width: 100%;
+  margin:0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: 'MedievalSharp', 'Bilbo Swash Caps';
+  color:#ffffff;
+  line-height:1.6;
+}
+
+/*PAGE 1*/
+#main {
+  background: url('../img/s_attack.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  z-index: 1; 
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+
+#main h1{
+  font-size:90px;
+  line-height:1.2;
+  text-shadow: 0.025em 0.025em 0 rgba(126, 21, 3, 0.76);
+  margin-top: 270px;
+  margin-bottom: 90px;
+}
+
+#title{
+  font-size:40px;
+  /* font-weight: 500; */
+  /* margin-top: 70px; */
+  color: #f1c54a;
+  max-width: 750px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-family: 'bilbo swash caps';
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  
+  text-shadow: 0.025em 0.025em 0 rgba(126, 38, 3, 0.76);
+
+}
+
+
+#main .button{
+  font-size:22px;
+  text-decoration:none;
+  color:#ffffff;
+  background: none;
+  border:#860808 2px solid;
+  padding: 10px 20px 10px 22px;
+  border-radius:10px;
+  margin-top:20px;
+  font-family: 'MedievalSharp';
+  margin-bottom: 10px;
+}
+
+#main .button:hover{
+  background:#860808;
+  color:#fff;
+  cursor: pointer;
+}
+
+
+
+/*PAGE 2*/
+
+.page2 {
+  background: url('../img/s_smile.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  z-index: 2; 
+}
+
+.page2 h1{
+  width: 30vw;
+  height: auto;
+  font-size: 10vh;
+  margin-left: 40px;
+  text-shadow: 0.025em 0.025em 0 rgba(126, 38, 3, 0.76);
+}
+
+.page2 h3{
+  display:flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align:center;
+  padding-bottom: 7vh;
+  padding-right: 3vh;
+  width: 20vw;
+  font-size: 5vh;
+  font-family: 'bilbo swash caps';
+  /* color: f1c54a; */
+  text-shadow: 0.025em 0.025em 0 rgba(24, 1, 129, 0.76);
+}
+
+/* a #article-page{
+  display:flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+} */
+
+/*PAGE 3*/
+.page3 {
+  background: url('../img/winter.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  z-index: 3; 
+}
+
+/*PAGE 4*/
+.page4 {
+  background: url('../img/s_lake.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  z-index: 4; 
+}
+
+/*PAGE 3 ARTICLE*/  
+.container-1{
+  min-height: 50vh;
+  /* height: 50vh; -wrong*/
+  width: 80vw;
+
+}
+
+.container-1{
+  display:flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap: 50px;
+  font-size: 18px;
+}
+
+.container-1 div{
+  border: 1px #ccc solid;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  /* background-color: rgba(0, 3, 44, 1); */
+  color: rgb(0, 0, 0);
+}
+
+.container-1 p{
+  padding-bottom: 20px;
+
+}
+
+
+.box-1{
+  flex:1;
+  border-radius: 10px;
+}
+
+.box-2{
+  flex:1;
+  border-radius: 10px;
+
+}
+
+.box-3{
+  flex:1;
+  border-radius: 10px;
+
+  
+}
+
+.box-3 li{
+padding-bottom: 20px;
+margin-left: 20px;
+}
+
+.page3 h1{
+  text-align: center;
+  padding-top: 8vh;
+  font-size: 80px;
+  text-shadow: 0.025em 0.025em 0 rgba(1, 51, 187, 0.76);
+}
+
+/*PAGE 4 FINAL*/
+
+.page4 h1{
+  width: 20vw;
+  padding-left: 5vh;
+  padding-top: 5vh;
+  font-size: 5vh;
+  text-align: center;
+
+}
+
+.circle{
+  border-radius: 50%;
+  display: grid;
+  grid-template-columns: 30% 43%;
+  grid-template-rows: 150px 125px;
+  border: 1px #ccc solid;
+  width: 380px;
+  height: 380px;
+  gap: 37px;
+  margin-top: 10vh;
+  margin-left: 7vh;
+  align-items: center;
+  padding-left: 70px;
+  text-align: center;
+  padding-top: 45px;
+  background-color: rgb(41, 38, 38, 0.5);
+  border-color: grey;
+}
+
+/* .circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+} */
+
+.circle .img2{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+#image{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+
